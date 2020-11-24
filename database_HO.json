@@ -1,0 +1,232 @@
+[
+   {
+     "name": "Housing",
+     "year": 2020,
+     "category": "SCHOLARLY",
+     "Definiton": "(within the context of social reproduction) \"The crisis of social reproduction and the politics of care are inextricably linked to housing. The home is a strategic site for social reproduction: it’s where social reproductive labor happens—not exclusively, but to a significant extent. When housing is overcrowded, poorly maintained, or otherwise inadequate, social reproductive processes are placed under strain. Care requires space, and sufficient domestic space is increasingly hard to come by.\"",
+     "Author": "David Madden",
+     "Reference": "Madden, D. (2020). \"Housing and the Crisis of Social Reproduction\". E-flux Architecture. Available at: https://www.e-flux.com/architecture/housing/333718/housing-and-the-crisis-of-social-reproduction/ [Accessed 26 July 2020].",
+     "children": [
+        {
+           "name": "Right to Adequate Housing",
+           "year": 2018,
+           "category": "SCHOLARLY",
+           "Definiton": "\"The right to adequate housing includes both freedoms - from forcible eviction, from interference in home and privacy, and to choose where to live and move - as well as entitlements - to secure, tenure, restitution, equal access, and participation in housing-related decisions. In order to be considered \"adequate\" housing must be affordable, habitable, available, accessible, connected to services and infrastructure, and culturally appropriete.\"",
+           "Author": "OCHR and UN HABITAT, n.d., cited by Corianne Payton Scally",
+           "Reference": "Scally, C. P. (2018). Global Housing Challenges in the Twenty-First Century. In: Anacker, K. B., Carswell, A. T., Kirby, S. D. and Tremblay, K. R. (Eds.). (2018). Introduction to housing (2nd edition). Athens (GA): University of Georgia Press, 2018, pp. 441.",
+           "name_a": "Right to Adequate Housing",
+           "year_a": 2012,
+           "category_a": "INSTITUTIONAL ",
+           "Definiton_a": "“The right to adequate housing should be understood as the right to live in conditions deemed adequate on the grounds of security of tenure; availability of services, building materials, facilities and infrastructure; affordability; habitability; accessibility; location; and cultural adequacy. (…) The right to adequate housing should be respected and protected during the design, implementation and monitoring phases of housing policies and programmes and elaborated and implemented with the full participation of affected individuals and communities.”",
+           "Author_a": "UN Special Rapporteur on the Right to Adequate Housing",
+           "Reference_a": "UN Special Rapporteur on the Right to Adequate Housing. (2012). The Impact of Housing Finance. Report A/67/286 [online]. Available at: https://www.ohchr.org/Documents/Issues/Housing/A-67-286.pdf [Accessed 20 Apr. 2020].",
+           "name_b": "Right to Adequate Housing",
+           "year_b": 2014,
+           "category_b": "INSTITUTIONAL ",
+           "Definiton_b": "\"[T]he human right to adequate housing is the right of every woman, man, youth and child to gain and sustain a safe and secure home and community in which to live in peace and dignity. This definition is in line with the core elements of the right to adequate housing as defined by General Comment No. 4 of the United Nations Committee on Economic, Social and Cultural Rights (the body in charge of monitoring the implementation of the International Covenant on Economic, Social and Cultural Rights in the States which are party to it). According to the Committee, while adequacy is determined in part by social, economic, cultural, climatic, ecological and other factors, it is nevertheless possible to identify certain aspects of the right that must be taken into account for this purpose in any particular context. They include the following: Legal security of tenure; Availability of services, materials, facilities and infrastructure; Affordability; Habitability; Accessibility; Location; and Cultural adequacy.\"",
+           "Author_b": "Leilani Farha",
+           "Reference_b": "Farha, L. (2014). Special Rapporteur on adequate housing as a component of the right to an adequate standard of living, and on the right to non-discrimination in this context. Www.housingrightswatch.org [online]. Available at: http://www.housingrightswatch.org/page/un-housing-rights [Accessed 20 Apr. 2020].",
+           "children": [
+              {
+                 "name": "Severe Rental Housing Cost Burden",
+                 "year": 2018,
+                 "category": "SCHOLARLY",
+                 "Definiton": "\"A severe rental housing cost burden [means] having rental housing costs higher than 50 percent of a renter's income [which] might also potentially result in eviction and eventual homelessness.\"",
+                 "Author": "Katrin B. Anacker",
+                 "Reference": "Anacker, K. B. (2018). Housing and Racial and Ethnic Diversity. In: Anacker, K. B., Carswell, A. T., Kirby, S. D. and Tremblay, K. R. (Eds.). (2018). Introduction to housing (2nd edition). Athens (GA): University of Georgia Press, 2018, pp. 276."
+              },
+              {
+                 "name": "Moderate Rental Housing Cost Burden",
+                 "year": 2018,
+                 "category": "SCHOLARLY",
+                 "Definiton": "\"A moderate rental housing cost burden [means] having rental housing cost higher than 30 percent of a renter's pretax (Schwartz, 2015) or adjusted (Pelletiere, 2008) income [which] might result in overcrowding, doubling up, or difficulties meeting expenses related to food, transportation, education, and health care, among other expenses, or saving for retirement.\"",
+                 "Author": "Katrin B. Anacker",
+                 "Reference": "Anacker, K. B. (2018). Housing and Racial and Ethnic Diversity. In: Anacker, K. B., Carswell, A. T., Kirby, S. D. and Tremblay, K. R. (Eds.). (2018). Introduction to housing (2nd edition). Athens (GA): University of Georgia Press, 2018, pp. 276."
+              },
+              {
+                 "name": "Housing Cost-burdened Household",
+                 "year": 2020,
+                 "category": "INSTITUTIONAL ",
+                 "Definiton": "\"A household is considered housing cost-burdened when 30 percent or more of its monthly gross income is dedicated to housing. People whose housing costs exceed this threshold of affordability are likely to struggle to pay for other basic needs, forcing difficult trade-offs. Individuals and families who are cost-burdened may drop health care coverage, select less expensive child care arrangements, or skip meals to save on costs, which may result in poorer outcomes in other areas of well-being.\"",
+                 "Author": "Minnesota Compass",
+                 "Reference": "Minnesota Compass. (2020). COST-BURDENED HOUSHOLDS. Www.mncompass.org [online]. Available at: https://www.mncompass.org/housing/cost-burdened-households#1-6930-g [Accessed 20 Apr. 2020]."
+              },
+              {
+                 "name": "Precarious Housing",
+                 "year": 2020,
+                 "category": "CMMM WALL",
+                 "Definiton": "\"Precarious housing includes every situation of housing which does not fulfil et least one the three following criteria: affordability (referring to the housing related costs, in relation to the income); adeqacy (referring to physical conditions of the housing unit); security (referring to the (in)certainty of tenure).\" ",
+                 "Author": "CMMM Belgrade Team ",
+                 "Reference": ""
+              },
+              {
+                 "name": "Affordable Housing",
+                 "year": 2019,
+                 "category": "INSTITUTIONAL ",
+                 "Definiton": "\"Housing affordability can be measured in different ways. Indicators often focus on the ratio between housing costs and household income. Two common indicators are: i) the housing cost burden ..., which is the share of households spending more than 40% of their disposable household income on rent or mortgage; and ii) the share of housing-related expenditures (housing, water, electricity, gas, etc.) relative to overall final consumption expenditures of a household. Other indicators may aim to measure other dimensions of housing affordability, such as the share of households who cannot afford to keep their dwelling adequately warm.\"",
+                 "Author": "OECD",
+                 "Reference": "OECD. (2019). “Affordable housing”. In Society at a Glance 2019: OECD Social Indicators. Paris: OECD Publishing. \nDOI: https://doi.org/10.1787/e885d313-en "
+              },
+              {
+                 "name": "Adequate Housing ",
+                 "year": 2016,
+                 "category": "INSTITUTIONAL ",
+                 "Definiton": "\"Adequate housing is the one that fulfils the minimal standard conditions in terms of spatial conditions [number of m2 per person], equipment with basic installations, construction safety, as well as protection from the external influences and fulfilment of basic hygiene-related conditions.\"",
+                 "Author": "Official Gazzette of the Republic of Serbia",
+                 "Reference": "Law on Housing and Maintainance of Buildings 104/2016 and 9/2020, c.article 90.",
+                 "name_a": "Adequate Housing",
+                 "year_a": 2009,
+                 "category_a": "INSTITUTIONAL ",
+                 "Definiton_a": "\"Adequate housing is defined within the Global Strategy as meaning: adequate privacy, adequate space, adequate security, adequate lighting and ventilation, adequate basic infrastructure and adequate location with regard to work and basic facilities-all at a reasonable cost.\"",
+                 "Author_a": "UN Office of the High Commissioner for Human Rights (OHCHR)",
+                 "Reference_a": "Fact Sheet No.21, The Human Right to Adequate Housing. (2009) UN Office of the High Commissioner for Human Rights. Available at: https://www.un.org/ruleoflaw/files/FactSheet21en.pdf [Accessed 1 Aug 2020]"
+              },
+              {
+                 "name": "Illegitimate Housing Debt",
+                 "year": 2019,
+                 "category": "INSTITUTIONAL ",
+                 "Definiton": "\"Illigitimate debt is a political concept. It covers legal principles such as: the prohibition of abuse, equity, human dignity, the right of people to self-determination. ... We are using the following definition, which the Committee for the Abolition of Illegitimate Dect (CADTM) developed: illegitimate debt is 'the debt that the borrower cannot be required to repay because the loan, security of guarantee, or the terms and conditions attached to that loan, security of guarantee infringed the law (both national and international) or public policy, or becuase such terms or conditions were grossly unfair, unreasoinable, unconscionable or otherwise objectionable, or because the conditions attached to this loan, securty or guarantee included policy prescriptions that violate national laws or human rights standards, or because the loan, securty or guarantee was not used for the benefit of the population or the debt was converted from private (commercial) to public debt under the pressure frmo bailout creditors.\" ",
+                 "Author": "CADTM cited by the European Action Coalition for the Right to Housing and to the City",
+                 "Reference": "European Action Coalition for the Right to Housing and to the City. (2019). Housing financialization.\n Brochure of the European Action Coalition for the Right to Housing and to the City. Brussel: Rosa Luxemburg Stiftung."
+              },
+              {
+                 "name": "Officially Protected Housing (VPO)",
+                 "year": 2020,
+                 "category": "CMMM WALL",
+                 "Definiton": "\"Public or private housing (it can be built by both the public administration and by developers and cooperatives on private land) subject to a stipulated price per m2, whether it is the maximum price for sale, rent or other forms of access to housing. There are three different types of VPO (special, general or concerted), depending on the family income\".",
+                 "Author": "CMMM Barcelona Team  ",
+                 "Reference": ""
+              },
+              {
+                 "name": "Social renting",
+                 "year": 2020,
+                 "category": "CMMM WALL",
+                 "Definiton": "\"Term of general use but with a legal definition that establishes a price based on household income, and can be granted by both the public administration and a financial entity. It is aimed at people who can prove residential exclusion and are registered at what it is called the “emergency table”, some of the conditions of access are determined by the local government\".",
+                 "Author": "CMMM Barcelona Team  ",
+                 "Reference": ""
+              }
+           ]
+        },
+        {
+           "name": "Eviction",
+           "year": 2020,
+           "category": "SCHOLARLY",
+           "Definiton": "\"the act of forcing somebody to leave a house or land, especially when you have the legal right to do so\"",
+           "Author": "Oxford Learner's Dictionaries",
+           "Reference": "Eviction (n.d.) In: Oxford Learner's Dictionaries. [online] Oxford: Oxford University Press. Available at: https://www.oxfordlearnersdictionaries.com/definition/english/ [Accessed 21 Apr. 2020].",
+           "children": [
+              {
+                 "name": "Benevolent Evictions",
+                 "year": 2019,
+                 "category": "SCHOLARLY",
+                 "Definiton": "\"[Benevolent eviction is a concept] to describe a new mode of dispossession, whereby expulsions from the urban core to the periphery are facilitated through the deployment of benevolence as a technology of eviction. ... The concept of benevolent eviction serves as a useful framework for understanding the new drivers and logics of dispossession in climate-vulnerable Southern cities subjected to reconstruction and reconfiguration both in the aftermath of disasters and in response to escalating risks. Benevolent eviction is an instantiation of ‘resiliency revanchism’, or ‘the discursive enrolment of resiliency toward revenge’ against the vulnerable yet undesirable other.\"",
+                 "Author": "Maria Khristine Alvarez",
+                 "Reference": "Alvarez, M. K. (2019). Radical Housing Journal 1(1): 49-68."
+              }
+           ]
+        },
+        {
+           "name": "Touristification",
+           "year": 2018,
+           "category": "SCHOLARLY",
+           "Definiton": "“[W]e understand touristification as a transformation of urban spaces into tourist areas that are produced by visitors and their practices and which can be approached on the three levels (...). On the first level, we approach the phenomenon of touristification as a visible change of the built environment or its functional use, and hence as a materialized object, for example, in the spread of souvenir shops or localized tourist services. On the second level, we address touristification as a non-visible, or hardly visible, change in the use of existing infrastructure or environmental settings, such as the on-going transformation of regular housing into Airbnb apartments. And on the third level, we look at touristification from a human-agency-based perspective with a focus on tourist practices and actions. (...) We acknowledge that the three levels are highly intertwined and contingent on each other. (...) On the ground of our reflections and observations, we suggest that touristification should not be regarded as a unidimensional, linear cause-and-effect model, but as a multi-dimensional, complex concept reflecting the interplay of heterogeneous actors and settings.”",
+           "Author": "Tim Freytag and Michael Bauder",
+           "Reference": "Freytag, T. and Bauder, M. (2018). Bottom-up touristification and urban transformations in Paris. Tourism Geographies 20(3): 443–460, DOI:10.1080/14616688.2018.1454504.",
+           "name_a": "Touristification",
+           "year_a": 2007,
+           "category_a": "SCHOLARLY",
+           "Definiton_a": "\"[Touristification is] the coming into being of a tourist place.\"",
+           "Author_a": "Mathis Stock",
+           "Reference_a": "Stock, M. (2007). European Cities: towards a recreational turn? Hagar. Studies in Culture, Polity and Identities 7(1): 115–34.",
+           "name_b": "Touristification",
+           "year_b": 2018,
+           "category_b": "SCHOLARLY",
+           "Definiton_b": "\"Touristification could be defined as a process, and the resulting state in a definite space, of relatively spontaneous, unplanned massive development of tourism, which leads to the transformation of this space into a tourism commodity itself.\"",
+           "Author_b": "Luis del Romero Renau",
+           "Reference_b": "Del Romero Renau, L. (2018). Touristification, Sharing Economies and the New Geography of Urban Conflicts. Urban Sci 2(4): 104, https://doi.org/10.3390/urbansci2040104"
+        },
+        {
+           "name": "Financialization of housing markets",
+           "year": 2019,
+           "category": "INSTITUTIONAL ",
+           "Definiton": "“The definition we seek to work with comes from Aalbers (2017), inspired by Epstein (2005): “Financialization is the increasing dominance of financial actors, markets, practices, measurements and narratives, at various scales, resulting in a structural transformation of the economies, firms (including financial institutions), states and households.” While identifying the structural causes of housing crises, we should name and target the main actors of financialization, among them banks, real estate developers, investment companies, private equity funds, and others. Moreover, we should uncover how the states, transnational structures, and intergovernmental organizations are supporting their interests through legislation, policies, strategies, and programs that privatize, marketize and deregulate housing and are also the constitutive actors of financialization.”",
+           "Author": "Aalbers, cited by European Action Coalition for the Right to Housing and to the City",
+           "Reference": "European Action Coalition for the Right to Housing and to the City. (2019). Housing financialization.\n Brochure of the European Action Coalition for the Right to Housing and to the City. Brussel: Rosa Luxemburg Stiftung.",
+           "name_a": "Financialization of housing markets",
+           "year_a": 2019,
+           "category_a": "SCHOLARLY",
+           "Definiton_a": "“(..) [F]inancialization is a multifaceted process and empirically speaking financialization in some domains may be happening alongside non-financialization in other domains. (…) The defining component of the financialization of housing is the transformation of residential real estat into a financial asset, opening channels for extraction by rentiers. Mortgage debt is the most common way in which this happens, but as we have illustrated above, not the only way. Furthermore, some rapid changes have taken and continue to take place in the GS.”",
+           "Author_a": "Rodrigo Fernandez and Manuel B. Aalbers",
+           "Reference_a": "Fernandez, R. and Aalbers, M. B. (2019). Housing Financialization in the Global South: In Search of a Comparative Framework. Housing Policy Debate, DOI: 10.1080/10511482.2019.1681491."
+        },
+        {
+           "name": "Commons",
+           "year": 2018,
+           "category": "SCHOLARLY",
+           "Definiton": "\"Ostrom and her colleagues often define commons as common pool resources, a specific type of good. The underlying classification is based on different degrees of excludability and subtractability. In the paper this is criticized for disregarding the importance of the social processes at hand. It is argued that instead of being a type of good, commons need to be conceptualized taking the relevant social dimensions into account. Commons are hence conceptualized as the social form of (tangible and/or intangible) matter that is determined by commoning.\"",
+           "Author": "Johannes Euler",
+           "Reference": "Euler, J. (2018). Conceptualizing the Commons: Moving Beyond the Goods-based Definition by Introducing the Social Practices of Commoning as Vital Determinant. Ecological Economics 143(C): 10-16, DOI:10.1016/j.ecolecon.2017.06.020.",
+           "name_a": "Commons",
+           "year_a": 1990,
+           "category_a": "SCHOLARLY",
+           "Definiton_a": "\"[Commons, or Common Pool Resources describe] a natural or manmade resource system that is sufficiently large as to make it costly (but not impossible) to exclude potential beneficiaries from obtaining benefits from its use.\"",
+           "Author_a": "Elinor Ostrom",
+           "Reference_a": "Ostrom, E. (1990). Governing the Commons. Cambridge University Press: Cambridge, pp. 30.",
+           "children": [
+              {
+                 "name": "Housing commons",
+                 "year": 2018,
+                 "category": "SCHOLARLY",
+                 "Definiton": "\"... all housing, irrespective of tenure and ownership, constitutes an actually existing housing commons when we recognize its collective use-value as social infrastructure that benefits us all when everyone can access it. ... The circulation of the commons here takes place not through the invisible hand of the market, but through the very visible body of the housing commoners, the groups of activists and individuals who are resisting and creating.\"",
+                 "Author": "Tim Joubert and Stuart Hodkinson",
+                 "Reference": "Joubert, T and Hodkinson, S. N. (2018). Beyond the Rent Strike, Towards the Commons: Why the Housing Question Requires Activism that Generates its Own Alternatives. In: Gray, N., ed. Rent and its Discontents; A Century of Housing Struggle. (Transforming Capitalism). London & New York: Rowman & Littlefield, pp. 185."
+              },
+              {
+                 "name": "Common Good (Gemeinwohl)",
+                 "year": 2018,
+                 "category": "SCHOLARLY",
+                 "Definiton": "\"The planning process has been the focus of protests against neighbourhood initiatives, including demands for consideration of the ‘common good’ (gemeinwohl)—i.e. more public spaces and social housing—in the rather functional and profit‐oriented masterplan, as well as meaningful participation in the planning process\"",
+                 "Author": "David Scheller and Håkan Thörn",
+                 "Reference": "Scheller, D. and Thörn, H. (2018). Governing ‘Sustainable Urban Development’ Through Self‐Build Groups and Co‐Housing: The Cases of Hamburg and Gothenburg. International Journal of Urban and Regional Research 42: 914-933. DOI:10.1111/1468-2427.12652.",
+                 "name_a": "Common Good (Gemeinwohl)",
+                 "year_a": 2003,
+                 "category_a": "SCHOLARLY",
+                 "Definiton_a": "\"[What is common good?] Consider the choice between public and private provision of medical care. You favor public provision. I favor private provision. Each of us may hold the view he does because of the impact of medical care on his own life, but, to persuade others, one must appeal to something beyond his own personal interest. Each of us must argue that his preferred method of provision is best for the nation as a whole. Recognizing that no policy is ideal for everybody, we try to show that the gains to some people outweigh the losses to others. To do so is to appeal, implicitly or explicitly, to a commonly accepted scale. Notions of better off and worse off, so far restricted to the well-being of the individual, must somehow be extended from the individual to the community.\"",
+                 "Author_a": "Dan Usher",
+                 "Reference_a": "Usher, D. (2003). Chapter Eight. The Common Good. In: Ethics and Capitalism. Cornwall: Blackwell Publishing,256-275.",
+                 "name_b": "Common Good (Gemeinwohl)",
+                 "year_b": 2020,
+                 "category_b": "SCHOLARLY",
+                 "Definiton_b": "\" [The Common Good is] the benefit or interests of everyone\"",
+                 "Author_b": "Oxford Learner's Dictionaries",
+                 "Reference_b": "The Common Good. In: Oxford Learner's Dictionaries. [online] Oxford: Oxford University Press. Available at: https://www.oxfordlearnersdictionaries.com/definition/academic/common1#common1__223 [Accessed 20 Apr. 2020]."
+              }
+           ]
+        },
+        {
+           "name": "Residential (housing) as Political",
+           "year": 2016,
+           "category": "SCHOLARLY",
+           "Definiton": "\"The residential is political - which is to say that the shape of the housing system is always the outcome of struggles between different groups and classes. Housing necessarily raises questions about state action and the broader economic system.\"",
+           "Author": "David Madden and Peter Marcuse ",
+           "Reference": "Madden, D. and Marcuse, P. (2016). In Defense of Housing. London & New York: Verso, pp. 4."
+        },
+        {
+           "name": "Sustainable Development of Housing",
+           "year": 2016,
+           "category": "INSTITUTIONAL ",
+           "Definiton": "\"Sustainabel development of housing is defined as the improvement of the housing conditions for citizens, as well as preservation and improvement of the value of the housing stock [both privately and publicly owned], along with improvement of energy efficiency, decrease in negative impact on the environemnt and rational use of resources, hence harmonization of economic and social development and environment protection whitin development of the housing sector.\"",
+           "Author": "Official Gazzette of the Republic of Serbia",
+           "Reference": "Law on Housing and Maintainance of Buildings 104/2016 and 9/2020, c. 2."
+        },
+        {
+           "name": "Master Plan",
+           "year": 2009,
+           "category": "INSTITUTIONAL ",
+           "Definiton": "\"General urban plan [Master plan] is adopted as the strategic development plan, with general element of the spatial development. It is adopted for the territory considered by the Law on Territorial Organisation of the Republic of Serbia as the town.\"",
+           "Author": "Official Gazzette of the Republic of Serbia",
+           "Reference": "Law on Planning and Construction 72/2009, 81/2009, 64/2010, 24/2011, 121/2012, 42/2013, 50/2013, 98/2013, 132/2014, 145/2014, 83/2018, 31/2019, 37/2019 and 9/2020, c. 23."
+        }
+     ]
+  }
+  ]

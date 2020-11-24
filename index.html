@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="style.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <div id="graph">
+
+  </div>
+
+  <div id="block_container">
+    <div id="logo"><a href="https://cmmm.eu"><img src="logo.png" width="295px" ></a></div> 
+    <div id="sbl"><h1>     Gl _ GLOSSARY</h1><br>
+    <p id="look">SEARCH BY TERM:</p>
+  </div>
+    <div id="searchName" aria-label="hello"></div>
+  </div>
+  <button id="btn7" class="btn-sm btn-howto" data-toggle="collapse" data-target="#howtodesc" aria-expanded="false" aria-controls="howtodesc"> <u>HOW TO</u> <b>?</b></button>
+  <div id="definitions" class="hidedef">
+      <button id="btn6" class="closedef"> <img src="close.svg" alt="Close button" width="25" height="25"></button>
+  </div>
+  <div id="filters"> 
+    <div id="myBtnContainer">FILTER BY SOURCE: 
+      <button id="btn1" class="btn-sm btn-act" > ACTIVISTS/<br>MEDIA</button>
+      <button id="btn2" class="btn-sm btn-cmmm"> CMMM <br>WALL</button>
+      <button id="btn3" class="btn-sm btn-scho" > SCHOLARLY<br></button>
+      <button id="btn4" class="btn-sm btn-inst" > INSTI-<br>TUTIONAL</button>
+      <button id="btn4" class="btn-sm btn-all" > SHOW ALL</button>
+      <button id="btn5" class="btn-sm btn-info" data-toggle="collapse" data-target="#infotext" aria-expanded="false" aria-controls="infotext"> i</button>
+      <div class="collapse " id="howtodesc">      <div class="card card-body">       <div> <button id="btn6" class="btn-sm btn-close" data-toggle="collapse" data-target="#howtodesc" aria-expanded="false" aria-controls="infotext"> <img src="close.svg" alt="Close button" width="25" height="25"></button></div>
+
+      <div id="methodology">
+        <b>How to use the Glossary</b><br>
+        <b>Zooming</b>
+        Zoom in and Zoom out with two fingers up and down on your trackpad or by scrolling your mousewheel</br>
+        <b>Panning</b><br>
+        You can move the graph by selecting any node with your mouse pressed, then drag wherever you need</br>
+        <b>Click on Name</b><br>
+        A click on the name opens the different definitions. A double-click opens them while also increasing the graph by one zoom step</div></div></div>
+
+    <div class="collapse " id="infotext">
+      <div class="card card-body">
+       <div> <button id="btn6" class="btn-sm btn-close" data-toggle="collapse" data-target="#infotext" aria-expanded="false" aria-controls="infotext"> <img src="close.svg" alt="Close button" width="25" height="25"></button></div>
+<div id="methodology">
+        <b>About</b><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+        <b>Methodology</b><br>
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.<br><br>
+       <br>
+        <div id="footer-logos">       <img src="logos.png">
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+$(function () {
+    $("#btn1").on("click", function () {
+
+        $("#btn1").addClass("active");
+    });
+    $(document).on("click", function (e) {
+        if (e.target.id != "btn1" && !$(e.target).parents("#filters").length) {
+            $("#btn1").removeClass("active");
+        }
+    });
+});
+
+$(function () {
+    $("#btn2").on("click", function () {
+
+        $("#btn2").addClass("active");
+    });
+    $(document).on("click", function (e) {
+        if (e.target.id != "btn2" && !$(e.target).closest("#filters").length) {
+            $("#btn2").removeClass("active");
+        }
+    });
+});
+
+$(function () {
+    $("#btn3").on("click", function () {
+
+        $("#btn3").addClass("active");
+    });
+    $(document).on("click", function (e) {
+        if (e.target.id != "btn3" && !$(e.target).closest("#filters").length) {
+            $("#btn3").removeClass("active");
+        }
+    });
+});
+
+
+$(function () {
+    $("#btn4").on("click", function () {
+
+        $("#btn4").addClass("active");
+    });
+    $(document).on("click", function (e) {
+        if (e.target.id != "btn4" && !$(e.target).closest("#filters").length) {
+            $("#btn4").removeClass("active");
+        }
+    });
+});
+
+
+
+
+    //SEARCH FUNCTIONALITY
+    //===============================================
+    function select2DataCollectName(d) {
+      if (d.children) d.children.forEach(select2DataCollectName);
+      else if (d._children) d._children.forEach(select2DataCollectName);
+      select2Data.push(d.name);
+    }
+    //===============================================
+    function searchTree(d) {
+      if (d.children) d.children.forEach(searchTree);
+      else if (d._children) d._children.forEach(searchTree);
+      var searchFieldValue = eval(searchField);
+      if (searchFieldValue && searchFieldValue.match(searchText)) {
+        // Walk parent chain
+        var ancestors = [];
+        var parent = d;
+        while (typeof parent !== "undefined") {
+          ancestors.push(parent);
+          //    console.log(parent);
+          parent.class = "found";
+          parent = parent.parent;
+        }
+        //  console.log(ancestors);
+      }
+    }
+    //===============================================
+    function clearAll(d) {
+      d.class = "";
+      if (d.children) d.children.forEach(clearAll);
+      else if (d._children) d._children.forEach(clearAll);
+    }
+    //===============================================
+    function collapse(d) {
+      if (d.children) {
+        d._children = d.children;
+        d._children.forEach(collapse);
+        d.children = null;
+      }
+    }
+    //===============================================
+    function collapseAllNotFound(d) {
+      if (d.children) {
+        if (d.class !== "found") {
+          d._children = d.children;
+          d._children.forEach(collapseAllNotFound);
+          d.children = null;
+        } else d.children.forEach(collapseAllNotFound);
+      }
+    }
+    //===============================================
+    function expandAll(d) {
+      if (d._children) {
+        d.children = d._children;
+        d.children.forEach(expandAll);
+        d._children = null;
+      } else if (d.children) d.children.forEach(expandAll);
+    }
+    //===============================================
+    function tick() {
+      link
+        .attr("x1", function (d) {
+          return d.source.x;
+        })
+        .attr("y1", function (d) {
+          return d.source.y;
+        })
+        .attr("x2", function (d) {
+          return d.target.x;
+        })
+        .attr("y2", function (d) {
+          return d.target.y;
+        });
+
+      node.attr("transform", function (d) {
+        return "translate(" + d.x + "," + d.y + ")";
+      });
+    }
+    //===============================================
+    // function color(d) {
+    //   return d._children
+    //     ? "#3182bd" // collapsed package
+    //     : d.children
+    //     ? "#c6dbef" // expanded package
+    //     : "#fd8d3c"; // leaf node
+    // }
+    //===============================================
+    // Toggle children on click.
+    function click(d) {
+      if (d3.event.defaultPrevented) return; // ignore drag
+      if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+      update(d);
+      $("#searchName").select2("val", "");
+    }
+    //===============================================
+    $("#searchName").on("select2-selecting", function (e) {
+      clearAll(root);
+      expandAll(root);
+      update(root);
+
+      searchField = "d.name";
+      searchText = e.object.text;
+      searchTree(root);
+      //   root.children.forEach(collapseAllNotFound);
+      update(root);
+    });
+
+    // Returns a list of all nodes under the root.
+    function flatten(root) {
+      var nodes = [],
+        i = 0;
+
+      function recurse(node) {
+        if (node.children) node.children.forEach(recurse);
+        if (!node.id) node.id = ++i;
+        nodes.push(node);
+      }
+
+      recurse(root);
+      return nodes;
+    }
+    //GRAPH ARCHITECTURE
+    //===============================================
+    var width = 1280,
+      height = 1280,
+      duration = 0,
+      root;
+
+    var force = d3.layout
+      .force()
+      .linkDistance(70)
+      .charge(-2900)
+      .size([400, 450])
+      .gravity(0.05)
+      .on("tick", tick);
+
+      function zooming(d) {        
+  svg.attr("transform",
+      "translate(" + d3.event.translate + ")"+ " scale(" + d3.event.scale + ")");
+}
+
+var x = d3.scale.linear()
+    .domain([0, width])
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .domain([0, height])
+    .range([height, 0]);
+
+    var zoom = d3.behavior.zoom().translate([500,280]).scale(.6,.6);
+
+
+    var svg = d3
+      .select("#graph")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .call(zoom.on("zoom", zooming))
+        .append('g')
+        .attr("transform","translate(500,280)scale(.6,.6)");
+      
+
+    var link = svg.selectAll(".link"),
+      node = svg.selectAll(".node");
+
+    d3.json("database.json", function (error, json) {
+      root = json;
+      update();
+
+      select2Data = [];
+      select2DataCollectName(root);
+      select2DataObject = [];
+      select2Data
+        .sort(function (a, b) {
+          if (a > b) return 1; // sort
+          if (a < b) return -1;
+          return 0;
+        })
+        .filter(function (item, i, ar) {
+          return ar.indexOf(item) === i;
+        }) // remove duplicate items
+        .filter(function (item, i, ar) {
+          select2DataObject.push({
+            id: i,
+            text: item,
+          });
+        });
+      select2Data
+        .sort(function (a, b) {
+          if (a > b) return 1; // sort
+          if (a < b) return -1;
+          return 0;
+        })
+        .filter(function (item, i, ar) {
+          return ar.indexOf(item) === i;
+        }) // remove duplicate items
+        .filter(function (item, i, ar) {
+          select2DataObject.push({
+            id: i,
+            text: item,
+          });
+        });
+
+      $("#searchName").select2({
+        data: select2DataObject,
+        containerCssClass: "search",
+      });
+
+      function collapse(d) {
+        if (d.children) {
+          d._children = d.children;
+          d._children.forEach(collapse);
+          d.children = null;
+        }
+      }
+
+      //  root.children.forEach(collapse);
+      update(root);
+    });
+
+    function update() {
+      var nodes = flatten(root),
+        links = d3.layout.tree().links(nodes);
+        console.log(root)
+
+      // Restart the force layout.
+      force.nodes(nodes).links(links).start();
+
+      // Update nodes.
+      node = node.data(nodes, function (d) {
+        return d.id;
+      });
+
+      var nodeEnter = node
+        .enter()
+        .append("g")
+        .attr("class", "node")
+        .on("click", click)
+        .call(force.drag);
+
+      nodeEnter.append("circle").attr("r", 15).style("fill", "white").style("opacity", 0.01);
+
+      nodeEnter
+        .append("text")
+        .attr("dy", "0.5em")
+        .attr("dx", "0em")
+        .html(function (d) {
+          return d.name;
+        })
+
+        .attr("id", function (d) {
+          if (d.style === "bold") {
+            return "big"; //red
+          } else if (d.style === "medium") {
+            return "medium"; //red
+          } else if (d.style === "small") {
+            return "small"; //red
+          } 
+
+
+        });
+
+      // Transition nodes to their new position.
+      var nodeUpdate = node.transition().duration(duration);
+
+      nodeUpdate
+        .select("text")
+        .style("font", function (d) {
+          if (d.style = "bold") {
+            console.log(d.style);
+            return "20px"; //red
+          }
+        })
+        //  .style("fill", color)
+        // .style("fill", function (d) {
+        //   if (d.class === "found") {
+        //     return "#ff4136"; //red
+        //   } else if (d._children) {
+        //     return "lightsteelblue";
+        //   } else {
+        //     return "#fff";
+        //   }
+        // })
+        .style("fill", function (d) {
+          if (d.class === "found") {
+            return "#fa0f0c"; //red
+          }
+        });
+
+      // Transition exiting nodes to the parent's new position.
+      var nodeExit = node.exit().transition().duration(duration).remove();
+
+      // Update links.
+      link = link.data(links, function (d) {
+        return d.target.id;
+      });
+
+      link
+        .enter()
+        .insert("line", ".node")
+        .attr("class", "link")
+        .style("stroke", function (d) {
+          return d.target.level;
+        });
+
+      // Transition links to their new position.
+      link
+        .transition()
+        .duration(duration)
+        //    .attr("d", diagonal)
+        .style("stroke", function (d) {
+          if (d.target.class === "found") {
+            return "#ff4136";
+          }
+        });
+
+      // Content
+
+      node.on("click", function (d) {
+        d3.select("#definitions").classed("hidedef", false);
+
+          d3.select(".selected").classed("selected", false);
+          d3.select(this).classed("selected", true);
+          d3.selectAll("#def").remove();
+          d3.selectAll("#away").remove();
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name + ", " + '<span id="year">' + d.year + '</span>' + '</h2>' + 
+          '<span id='+d.category.replace(/\s+/g, "")+"sp"+'>' + d.category + '</span>' +
+          '<p>' + d.Definiton +'</p>' +
+          '<p><b><em>' + "by: " + d.Author + '</em></b></p>'+
+          '<p><em>' + d.Reference +'<p><em></br></br></br>'
+          );
+
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category_a.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name_a + ", " + '<span id="year">' + d.year_a + '</span>' + '</h2>' + 
+          '<span id='+d.category_a.replace(/\s+/g, "")+"sp"+'>' + d.category_a + '</span>' +
+          '<p>' + d.Definiton_a +'</p>' +
+          '<p><b><em>' + "by: " + d.Author_a + '</em></b></p>'+
+          '<p><em>' + d.Reference_a +'<p><em></br></br></br>'
+          );
+
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category_b.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name_b + ", " + '<span id="year">' + d.year_b + '</span>' + '</h2>' + 
+          '<span id='+d.category_b.replace(/\s+/g, "")+"sp"+'>' + d.category_b + '</span>' +
+          '<p>' + d.Definiton_a +'</p>' +
+          '<p><b><em>' + "by: " + d.Author_b + '</em></b></p>'+
+          '<p><em>' + d.Reference_b +'<p><em></br></br></br>'
+          );
+        
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category_c.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name_c + ", " + '<span id="year">' + d.year_c + '</span>' + '</h2>' + 
+          '<span id='+d.category_c.replace(/\s+/g, "")+"sp"+'>' + d.category_c + '</span>' +
+          '<p>' + d.Definiton_c +'</p>' +
+          '<p><b><em>' + "by: " + d.Author_c + '</em></b></p>'+
+          '<p><em>' + d.Reference_c +'<p><em></br></br></br>'
+          );
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category_d.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name_d + ", " + '<span id="year">' + d.year_d + '</span>' + '</h2>' + 
+          '<span id='+d.category_d.replace(/\s+/g, "")+"sp"+'>' + d.category_d + '</span>' +
+          '<p>' + d.Definiton_d +'</p>' +
+          '<p><b><em>' + "by: " + d.Author_d + '</em></b></p>'+
+          '<p><em>' + d.Reference_d +'<p><em></br></br></br>'
+          );
+
+          d3.select("#definitions")
+          .append("div")
+          .attr("id", "def")
+          .attr("class", d.category_f.replace(/\s+/g, "").replace(/\//g, "-"))
+          .html('<h2>' + d.name_f + ", " + '<span id="year">' + d.year_f + '</span>' + '</h2>' + 
+          '<span id='+d.category_f.replace(/\s+/g, "")+"sp"+'>' + d.category_f + '</span>' +
+          '<p>' + d.Definiton_f +'</p>' +
+          '<p><b><em>' + "by: " + d.Author_f + '</em></b></p>'+
+          '<p><em>' + d.Reference_f +'<p><em></br></br></br>'
+          );
+
+      });
+
+
+
+
+/////// Show Definitions Button
+      var buttondef = d3.select(".closedef")
+buttondef.on("click",function(d){
+  d3.select("#definitions").classed("hidedef", true);
+
+});
+
+
+/////////// SORT BUTTONS
+var button = d3.select(".btn-cmmm")
+button.on("click",function(d){
+  var checker = d3.select(".CMMMWALL").attr('id')
+  console.log("hello")
+
+  console.log(checker)
+  if (checker=="def"){
+  d3.selectAll(".CMMMWALL").attr("id","away");
+}
+ if (checker =="away"){
+  d3.selectAll(".CMMMWALL").attr("id","def");
+  d3.selectAll(".btn-cmmm").classed('active', false);
+}
+  });
+
+var buttona = d3.select(".btn-act")
+buttona.on("click",function(d){
+  var checkerb = d3.select(".ACTIVISTS-MEDIA").attr('id')
+  if (checkerb=="def"){
+  d3.selectAll(".ACTIVISTS-MEDIA").attr("id","away");
+} 
+if (checkerb =="away"){
+  d3.selectAll(".ACTIVISTS-MEDIA").attr("id","def");
+  d3.selectAll(".btn-act").classed('active', false);
+}
+});
+
+var buttonb = d3.select(".btn-scho")
+buttonb.on("click",function(d){
+  var checkerc = d3.select(".SCHOLARLY").attr('id')
+
+  if (checkerc=="def"){
+  d3.selectAll(".SCHOLARLY").attr("id","away");
+} 
+if (checkerc =="away"){
+  d3.selectAll(".SCHOLARLY").attr("id","def");
+  d3.selectAll(".btn-scho").classed('active', false);
+}
+});
+
+var buttonc = d3.select(".btn-inst")
+buttonc.on("click",function(d){
+  var checkerd = d3.select(".INSTITUTIONAL").attr('id')
+
+  if (checkerd=="def"){
+  d3.selectAll(".INSTITUTIONAL").attr("id","away");
+} 
+if (checkerd =="away"){
+  d3.selectAll(".INSTITUTIONAL").attr("id","def");
+  d3.selectAll(".btn-inst").classed('active', false);
+}
+});
+
+var buttond = d3.select(".btn-all")
+buttond.on("click",function(d){
+
+  d3.selectAll("#away").attr("id","def");
+  d3.selectAll(".btn").classed('active', false);
+
+});
+
+      // Transition exiting nodes to the parent's new position.
+      link.exit().transition().duration(duration).remove();
+
+      // Stash the old positions for transition.
+      nodes.forEach(function (d) {
+        d.x0 = d.x;
+        d.y0 = d.y;
+      });
+    }
+    
+  </script>
+</body>

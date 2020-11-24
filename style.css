@@ -1,0 +1,390 @@
+body {
+  font-family: "Barlow", sans-serif !important;
+  display: inline-block;
+  margin: none;
+  margin-left: 15px;
+}
+
+.hidedef {
+  display: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size:32px;
+  margin: 0;
+  display: inline-block;
+ color:  #ff0000
+}
+.node {
+  cursor: pointer;
+}
+p {
+  width: 300px;
+}
+.node circle {
+  fill: black;
+  stroke: white;
+  stroke-width: 3px;
+}
+
+.node {
+  font-family: "Barlow", sans-serif;
+  font-size: 9px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.found {
+  fill: none;
+  /* fill: #fa0f0c; */
+  stroke: #fa0f0c;
+}
+
+#look {
+  display: inline;
+}
+
+.search {
+  font-family: "Barlow", sans-serif;
+  font: 14px;
+  width: 220px;
+  display: inline-block;
+}
+
+ul.select2-results {
+  max-height: 100px;
+  width: 200px;
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+  font-family: "Barlow", sans-serif;
+  font: 15px;
+  width: 200px;
+}
+#logo {
+  display: inline-block;
+  translate: 100px 200px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+#block_container {
+  position: fixed;
+  width: 20%;
+  z-index: 999999;
+  margin-left: 3%;
+}
+
+#def {
+  float: none;
+  display: inline-block;
+  border-right: 1px solid black;
+}
+#leiste {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 10px;
+}
+#footer-logos {
+  margin-bottom: 10px;
+}
+.card {
+  z-index: 999999999999;
+  margin-top: 2.5%;
+  float: left;
+  background-color: #ffffff;
+  border-left: 1px solid black !important;
+  border-top: none !important;
+  border-right: none !important;
+  width: 60vw;
+  text-align: left;
+  height: 100vh;
+  overflow: scroll;
+  border-radius: 0px !important;
+}
+.card-body {
+  padding-left: 2.25rem;
+  padding-right: 3.25rem !important;
+}
+
+#myBtnContainer {
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 40vw;
+  margin-top: 2.5vh;
+  margin-right: 3%;
+}
+
+.welcome {
+  border-right: 0px solid black !important;
+  font-size: 20px !important;
+  float: none;
+  display: inline-block;
+  width: 50vw;
+  height: 40vh;
+  background-color: white;
+  margin-right: 0.25em;
+  display: none;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-left: 50px;
+}
+
+.CMMMWALL,
+.SCHOLARLY,
+.ACTIVISTS-MEDIA,
+.INSTITUTIONAL {
+  float: none !important;
+  vertical-align: top !important;
+  display: inline-block !important;
+  width: 350px;
+  height: 100vh;
+  background-color: white;
+  margin-right: 0.25em;
+  margin-top: 5px;
+  display: none;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-left: 15px;
+}
+
+/*   Color of Tags in Textbox */
+
+#big {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: uppercase;
+}
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#medium {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#small {
+  font-size: 10px;
+  font-weight: regular;
+}
+
+#SCHOLARLYsp {
+  background-color: #e84a42;
+}
+
+#CMMMWALLsp {
+  background-color: #f59c00;
+}
+
+#ACTIVISTS\/MEDIAsp {
+  background-color: #009fe3;
+}
+
+#INSTITUTIONALsp {
+  background-color: #95c11f;
+}
+
+#definitions {
+  width: 60vw;
+  height: 100vh;
+  margin-left: 40vw;
+  background-color: white;
+  position: fixed;
+  top: 16vh;
+  overflow: auto;
+  white-space: nowrap;
+  border-left: 1px solid black;
+  padding-left: 25px;
+}
+
+#sbl {
+  margin-top: 50px;
+}
+#graph {
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  width: 40%;
+  text-align: left;
+  display: block;
+}
+
+#filters {
+  position: fixed;
+  top: 0.25%;
+  height: 15vh;
+  width: 100vw;
+  background-color: #ffffff !important;
+  box-shadow: 0px -2px 4px 6px rgba(0, 0, 0, 0.15);
+}
+body {
+  margin: 0;
+}
+.selected {
+  fill: black;
+  text-decoration: underline;
+  font-weight: 700 !important;
+}
+
+#away {
+  display: none !important;
+}
+#year {
+  font-weight: 200;
+}
+
+.hidedef {
+  display: none;
+}
+
+.btn-cmmm {
+  background-color: #ffffff;
+  border: 2px solid #f59c00;
+  height: 80px;
+  width: 80px;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-act {
+  background-color: #ffffff;
+  border: 2px solid #009fe3;
+  height: 80px;
+  width: 80px;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-scho {
+  background-color: #ffffff;
+  border: 2px solid #e84a42;
+  height: 80px;
+  width: 80px;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-inst {
+  background-color: #ffffff;
+  border: 2px solid #95c11f;
+  height: 80px;
+  width: 80px;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-all {
+  background-color: #ffffff;
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-info {
+  color: black;
+  margin-left: 20px;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  font-family: "Barlow", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1em;
+}
+.btn-close {
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 13px;
+}
+
+.btn-howto {
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  position: fixed;
+  margin-top: 90vh;
+  vertical-align: top;
+  margin-left: 3%;
+  padding: 0;
+
+}
+#methodology{
+  margin-left: 25px;
+}
+#btn6{
+  background-color: white;
+  border: none;
+  position:relative;
+  margin-top: 5px;
+  padding-left: 5px !important;
+  height: 100vh;
+  vertical-align:top !important;
+  margin-left: -25px;
+  position: fixed;
+}
+img{
+  vertical-align: top !important;
+}
+.btn-info:focus .btn-info:hover {
+  background-color: black !important;
+  border: black !important;
+  color: white;
+  outline: none !important;
+}
+
+.btn-info:hover {
+  background-color: black !important;
+  border: black !important;
+  outline: none !important;
+}
+.btn-info:visited {
+  background-color: black !important;
+  border: black !important;
+  outline: none !important;
+}
+.btn-info:active {
+  background-color: black !important;
+  border: black !important;
+  outline: none !important;
+}
+
+.active {
+  opacity: 0.3;
+}
+
+.re {
+  opacity: 1;
+}
+
+svg {
+  z-index: 99999;
+}
